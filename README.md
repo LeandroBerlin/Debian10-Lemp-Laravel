@@ -131,7 +131,7 @@ Setup Nginx, PHP 8, MariaDB, Laravel 8 and Let's Encrypt on Debian 10
     DB_PASSWORD=YOUR_DATABASE_USER_PASSWORD
     ```
 
-* Edit Nginx configuration to use Laravel
+* Edit [Nginx configuration](https://laravel.com/docs/8.x/deployment#nginx) to use Laravel
 
     ```
     nano /etc/nginx/sites-available/default.conf
